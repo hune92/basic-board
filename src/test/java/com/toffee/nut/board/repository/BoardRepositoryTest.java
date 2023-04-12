@@ -2,10 +2,9 @@ package com.toffee.nut.board.repository;
 
 import com.toffee.nut.board.domain.Board;
 import com.toffee.nut.board.domain.User;
-import com.toffee.nut.board.dto.BoardModifyRequestDto;
+import com.toffee.nut.board.dto.board.BoardModifyRequestDto;
 import com.toffee.nut.board.etc.BoardType;
 import jakarta.transaction.Transactional;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;

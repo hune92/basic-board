@@ -1,4 +1,4 @@
-package com.toffee.nut.board.dto;
+package com.toffee.nut.board.dto.board;
 
 import lombok.Builder;
 import lombok.Data;

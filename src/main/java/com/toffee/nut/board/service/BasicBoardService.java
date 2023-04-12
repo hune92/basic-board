@@ -2,8 +2,8 @@ package com.toffee.nut.board.service;
 
 import com.toffee.nut.board.domain.Board;
 import com.toffee.nut.board.domain.User;
-import com.toffee.nut.board.dto.BoardModifyRequestDto;
-import com.toffee.nut.board.dto.BoardSaveRequestDto;
+import com.toffee.nut.board.dto.board.BoardModifyRequestDto;
+import com.toffee.nut.board.dto.board.BoardSaveRequestDto;
 import com.toffee.nut.board.etc.BoardType;
 import com.toffee.nut.board.repository.BoardRepository;
 import com.toffee.nut.board.repository.UserRepository;
@@ -11,9 +11,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Slf4j
 @RequiredArgsConstructor

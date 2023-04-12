@@ -1,7 +1,7 @@
 package com.toffee.nut.board.controller;
 
-import com.toffee.nut.board.dto.BoardModifyRequestDto;
-import com.toffee.nut.board.dto.BoardSaveRequestDto;
+import com.toffee.nut.board.dto.board.BoardModifyRequestDto;
+import com.toffee.nut.board.dto.board.BoardSaveRequestDto;
 import com.toffee.nut.board.service.BasicBoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

@@ -23,3 +23,8 @@ logging:
     org:
       hibernate:
         SQL: debug
+
+server:
+  servlet:
+    session:
+      timeout: 3

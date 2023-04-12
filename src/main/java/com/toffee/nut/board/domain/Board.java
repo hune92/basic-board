@@ -1,13 +1,11 @@
 package com.toffee.nut.board.domain;
 
-import com.toffee.nut.board.dto.BoardModifyRequestDto;
+import com.toffee.nut.board.dto.board.BoardModifyRequestDto;
 import com.toffee.nut.board.etc.BoardType;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Collections;
 
 @Getter
 @AllArgsConstructor

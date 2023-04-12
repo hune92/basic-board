@@ -1,7 +1,7 @@
 package com.toffee.nut.board.util;
 
 import com.toffee.nut.board.domain.Board;
-import com.toffee.nut.board.dto.BoardSearchResponseDto;
+import com.toffee.nut.board.dto.board.BoardSearchResponseDto;
 import org.springframework.stereotype.Component;
 
 @Component
